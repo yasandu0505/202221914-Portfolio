@@ -197,6 +197,8 @@ p {
   font-size: 2rem;
 }
 
+
+
 /*---------------------------------------------------- Projects Section */
 #main-projects {
   background: #53ab8b;
@@ -508,6 +510,17 @@ input:not([type="submit"]):not(button) {
 
 
 /*----------------------------------------- Navigation Bar */
+.nav__links-r li:first-child a {
+  font-weight: bold;
+}
+
+.nav__links-r li:first-child a {
+  background-color: #53ab8b;
+  padding: 8px 12px;
+  border-radius: 4px;
+
+}
+
 .header-r {
   display: flex;
   justify-content: space-between;
@@ -557,6 +570,7 @@ input:not([type="submit"]):not(button) {
   background-color: #24252a;
   transform: scale(1.05); 
 }
+
 
 
 
