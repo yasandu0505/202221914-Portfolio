@@ -353,7 +353,7 @@ p {
   margin: 0 auto;
   text-align: center;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 10rem;
 }
 
 .contact-items form .input-box {
@@ -376,7 +376,6 @@ p {
   font-size: 20px;
   color: white;
   background: transparent;
-  border-radius: 0.6rem;
   border: 0.2rem solid #a2fdd9;
 }
 
@@ -394,6 +393,8 @@ p {
 .contact-items form .textarea-field textarea {
   resize: none;
   height: 200px;
+  border-radius: 0.6rem;
+
 }
 
 button[type="submit"] {
@@ -421,6 +422,15 @@ input[type="text"] {
 input[required] { 
   border: 2px rgb(7, 99, 7) solid !important;
 } 
+
+input:not([type="number"]) {
+  text-transform: capitalize;
+}
+
+input:not([type="submit"]):not(button) {
+  transition: all 0.3s ease ;
+  border-radius: 30px ;
+}
 
 /*----------------------------------------------------- Blog */
 #blog-me {
