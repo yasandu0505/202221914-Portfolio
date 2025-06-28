@@ -414,6 +414,14 @@ button[type="submit"]:hover {
   transform: scale(1.05); 
 }
 
+input[type="text"] {
+  color: #ffffff !important;
+
+}
+input[required] { 
+  border: 2px rgb(7, 99, 7) solid !important;
+} 
+
 /*----------------------------------------------------- Blog */
 #blog-me {
   height: auto;
