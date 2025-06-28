@@ -2,73 +2,92 @@
 <html lang="en">
 
 <head>
+  <!-- Meta Tags for Character Encoding and Responsive Design -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page Title -->
   <title>Yasandu Imanjith | Portfolio</title>
+
+  <!-- External Stylesheets -->
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/nav.css" />
+
+  <!-- Favicon and Google Fonts -->
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
+  <!-- ========== Navigation Header ========== -->
   <header>
-  <div class="header-r">
-    <a class="mainTag" href="/index.html">@Yasandu</a>
-    <nav>
-      <ul class="nav__links-r">
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/blog.html">Blog</a></li>
-      </ul>
-    </nav>
-    <a class="cta-r" href="/contact.html">Contact</a>
-    <p class="menu-r cta-r">Menu</p>
-  </div>
-  <div class="overlay-r">
-    <a class="close-r">&times;</a>
-    <div class="overlay__content-r">
-      <a href="#">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/blog.html">Blog</a>
-      <a href="/contact.html">Contact</a>
+    <div class="header-r">
+      <a class="mainTag" href="/index.html">@Yasandu</a>
+      <nav>
+        <ul class="nav__links-r">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <a class="cta-r" href="/contact.html">Contact</a>
+      <p class="menu-r cta-r">Menu</p>
     </div>
-  </div>
-   </header>
 
-
-    <header id="main-header">
-      <div class="header-text">
-        <!-- <img class="image-person" src="img/face.jpeg" alt="my-icon" /> -->
-        <h1>Hi, I'm Yasii</h1>
-        <p>Design-Driven MERN Stack Engineer</p>
-        <div class="icon-list">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/yasandu-imanjith-17b760278/" target="_blank"><i
-                  class="fab fa-linkedin icon"></i></a>
-
-            </li>
-            <li>
-              <a href="https://github.com/yasandu0505" target="_blank"><i class="fab fa-github icon"></i></a>
-            </li>
-            <li>
-              <a href="mailto:yasindu.20221914@iit.ac.lk" target="_blank"><i class="far fa-envelope icon"></i></a>
-            </li>
-          </ul>
-        </div>
+    <!-- Overlay Menu for Mobile -->
+    <div class="overlay-r">
+      <a class="close-r">&times;</a>
+      <div class="overlay__content-r">
+        <a href="#">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/contact.html">Contact</a>
       </div>
-    </header>
+    </div>
+  </header>
 
-      <main>
+  <!-- ========== Hero Section ========== -->
+  <header id="main-header">
+    <div class="header-text">
+      <!-- <img class="image-person" src="img/face.jpeg" alt="my-icon" /> -->
+      <h1>Hi, I'm Yasii</h1>
+      <p>Design-Driven MERN Stack Engineer</p>
+
+      <!-- Social Media Icons -->
+      <div class="icon-list">
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/yasandu-imanjith-17b760278/" target="_blank">
+              <i class="fab fa-linkedin icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/yasandu0505" target="_blank">
+              <i class="fab fa-github icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:yasindu.20221914@iit.ac.lk" target="_blank">
+              <i class="far fa-envelope icon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= Main Content ======= -->
+  <main>
+    <!-- ========== Skills Section ========== -->
     <section id="skill-me">
       <div class="skill-me__content">
-        <div class="skill-header">
+        <header class="skill-header">
           <h1 data-aos="fade-up">My Skills</h1>
-        </div>
+        </header>
+
+        <!-- Skills Row 1 -->
         <div class="skill-items">
           <div class="skill-item">
             <img src="img/html5-original.png" class="skill-icon" alt="skill-card" data-aos="fade-up" />
@@ -100,9 +119,9 @@
               <h2>JavaScript</h2>
             </div>
           </div>
-
         </div>
 
+        <!-- Skills Row 2 -->
         <div class="skill-items">
           <div class="skill-item">
             <img src="img/react-original.png" class="skill-icon" alt="skill-card" data-aos="fade-up" />
@@ -134,15 +153,18 @@
               <h2>MYSQL</h2>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
+    <!-- ========== Projects Section ========== -->
     <section id="main-projects">
       <div class="projects-content">
-        <h1>Projects</h1>
+        <header class="project-header">
+          <h1 data-aos="fade-up">Projects</h1>
+        </header>
         <div class="projects">
+          <!-- Project 1 -->
           <div class="project-link" data-aos="fade-right">
             <img src="img/5.png" alt="lovely-gold-house-web" />
             <div class="overlay">
@@ -156,6 +178,8 @@
               </div>
             </div>
           </div>
+
+          <!-- Project 2 -->
           <div class="project-link" data-aos="fade-right">
             <img src="img/4.png" alt="Grid-website" />
             <div class="overlay">
@@ -169,6 +193,8 @@
               </div>
             </div>
           </div>
+
+          <!-- Project 3 -->
           <div class="project-link" data-aos="fade-right">
             <img src="img/colorful-design.png" alt="Weather-App" />
             <div class="overlay">
@@ -182,6 +208,8 @@
               </div>
             </div>
           </div>
+
+          <!-- Project 4 -->
           <div class="project-link" data-aos="fade-right">
             <img src="img/2.png" alt="Movie-Tube-App" />
             <div class="overlay">
@@ -196,16 +224,18 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
-
   </main>
 
+  <!-- ========== Footer ========== -->
   <footer id="main-footer">
     <div class="content">
       <p class="copyright">All Rights Reserved 2024 &copy; Yasandu Imanjith</p>
     </div>
   </footer>
 
+  <!-- ========== Scripts ========== -->
   <script type="text/javascript" src="js/mobile.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
