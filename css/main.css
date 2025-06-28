@@ -421,9 +421,6 @@ input[type="text"] {
   color: #ffffff !important;
 
 }
-input[required] { 
-  border: 2px rgb(7, 99, 7) solid !important;
-} 
 
 input:not([type="number"]) {
   text-transform: capitalize;
@@ -443,6 +440,15 @@ input:not([type="submit"]):not(button) {
 .input-field:nth-child(3) { animation-delay: 0.3s !important; }
 .input-field:nth-child(4) { animation-delay: 0.4s !important; }
 
+input:required {
+  border: 2px rgb(7, 99, 7) solid !important;
+}
+input:valid, textarea:valid {
+  border: 2px rgb(7, 99, 7) solid !important;
+}
+input:invalid, textarea:invalid {
+  border-color: #eee !important;
+}
 
 /*----------------------------------------------------- Blog */
 #blog-me {
