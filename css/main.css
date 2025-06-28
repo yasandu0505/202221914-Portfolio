@@ -477,7 +477,8 @@ button[type="submit"]:hover {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  background-color: #157759;
+  /* background-color: #157759; */
+  background: linear-gradient(135deg, #157759, #101513);
 }
 
 .nav__links-r  a,
