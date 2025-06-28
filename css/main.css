@@ -49,6 +49,7 @@ p {
   font-size: 25px;
   margin: 0;
   color: #a2fdd9;
+  
 }
 
 .section-paragraph {
@@ -70,6 +71,11 @@ p {
   align-items: center;
   margin: auto;
   font-size: 1.3rem;
+  
+}
+
+.author-name{
+  text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.2);
 }
 
 .header-text h1 {
@@ -211,6 +217,7 @@ p {
 }
 
 .project-link {
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.7);
   position: relative;
 }
 
@@ -326,6 +333,7 @@ p {
 }
 
 /*------------------------------------------------ Contact */
+
 #contact-me {
   height: calc(100vh);
   background: #53ab8b;
